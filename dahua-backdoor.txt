@@ -20,6 +20,10 @@ This is like a damn Hollywood hack, click on one button and you are in...
 
 
 Below PoC you will find here: https://github.com/mcw0/PoC/dahua-backdoor.py
+Update:
+Dahua has requested me to temporally remove the PoC code, will be back here again 5th April. (30 days)
+/Sorry, bashis
+
 Please have understanding of the quick hack of the PoC, I'm sure it could be done better.
 
 Have a nice day
