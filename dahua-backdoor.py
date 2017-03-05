@@ -69,15 +69,17 @@ class HTTPconnect:
 			if self.query_data:
 				req = urllib2.Request(url, data=json.dumps(self.query_data), headers=self.query_headers)
 				if self.ID:
-					req.add_header('DhWebClientSessionID',self.ID)
+					Cookie = 'DhWebClientSessionID={}'.format(self.ID)
+					req.add_header('Cookie', Cookie)
 			else:
 				req = urllib2.Request(url, None, headers=self.query_headers)
 				if self.ID:
-					req.add_header('DhWebClientSessionID',self.ID)
+					Cookie = 'DhWebClientSessionID={}'.format(self.ID)
+					req.add_header('Cookie', Cookie)
 			rsp = urllib2.urlopen(req)
 #			print rsp
 			if rsp:
-				print "[<] %s OK" % rsp.code
+				print "[<] {} OK".format(rsp.code)
 
 		if self.Raw:
 			return rsp
