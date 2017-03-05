@@ -12,11 +12,11 @@ You can delete/add/change name on the admin users, you change password on the ad
 It uses whatever names and passwords you configuring - by simply downloading the full user database and use your own credentials!
 
 This is so simple as:
-1. Remotly download the full user database with all credentials and permissions
+1. Remotely download the full user database with all credentials and permissions
 2. Choose whatever admin user, copy the login names and password hashes
-3. Use them as source to remotly login to the Dahua devices
+3. Use them as source to remotely login to the Dahua devices
 
-This is like a damn hollywood hack, click on one button and you are in...
+This is like a damn Hollywood hack, click on one button and you are in...
 
 
 Below PoC you will find here: https://github.com/mcw0/PoC/dahua-backdoor.py
@@ -74,3 +74,4 @@ $ ./dahua-backdoor.py --rhost 192.168.5.3
 $
 
 [ETX]
+
